@@ -1,0 +1,134 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: sans-serif;
+    line-height: 1.4;
+  }
+  
+  /* PRODUCT */
+  .product {
+    border: 4px solid black;
+    width: 825px;
+    margin: 50px auto;
+    position: relative;
+  }
+  
+  .product-title {
+    text-align: center;
+    font-size: 22px;
+    text-transform: uppercase;
+    background-color: #f7f7f7;
+    padding: 15px;
+  }
+  /* sale */
+  .sale {
+    display: inline-block;
+    background-color: #ec2f2f;
+    letter-spacing: 0.3em;
+    color: #fff;
+    padding: 4px 10px;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 15px;
+    position: absolute;
+    top: -16px;
+    left: -42px;
+  }
+
+
+  /* colors */
+
+  .colors {
+
+  }
+  .color {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background-color: black;
+    margin-right : 7px;
+  } 
+  .color:last-child {
+    margin-right: 0;
+  }
+  .blue {
+    background-color: #306EE2;
+  }
+  .red {
+    background-color: #ed2f30;
+  }
+  .yellow {
+    background-color: #f0bf1e;
+  }
+  .green {
+    background-color: #90cc21;
+  }
+  .brow {
+    background-color: #885214;
+  }
+
+  /* PRODUCT INFORMATION */
+  .price {
+    font-size: 24px;
+  }
+
+
+  
+  .shipping {
+    font-size: 12px;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #777;
+    margin-bottom: 20px;
+  }
+  
+  
+
+  .more-info:link, .more-info:visited {
+    color: black;
+    margin-bottom: 30px;
+    display: inline-block;
+  }
+  
+  .more-info:hover, .more-info:active {
+    text-decoration: none;
+  }
+  
+   
+  /* PRODUCT DETAILS */
+  .details-title {
+    text-transform: uppercase;
+    font-size: 16px;
+    margin-bottom: 15px;
+    margin-top: 30px;
+  }
+  
+  .details-list {
+    list-style: square;
+    margin-left: 20px;
+  }
+  
+  .details-list li {
+    margin-bottom: 10px;
+  }
+  
+  /* BUTTON */
+  .add-cart {
+    background-color: #000;
+    border: none;
+    color: #fff;
+    font-size: 20px;
+    text-transform: uppercase;
+    cursor: pointer;
+    padding: 15px;
+    width: 100%;
+    border-top: 4px solid black;
+  }
+  
+  .add-cart:hover {
+    color: #000;
+    background-color: #fff;
+  }
